@@ -14,7 +14,7 @@ namespace Frary_practice_Fall2026
 
         private void btnClear_Click(object sender, EventArgs e)
         {
-           txtTextInput.Clear();    
+            txtTextInput.Clear();
             txtNumericInput.Clear();
             lstOut.Items.Clear();
         }
