@@ -6,5 +6,17 @@ namespace Frary_practice_Fall2026
         {
             InitializeComponent();
         }
+
+        private void btnQuit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+           txtTextInput.Clear();    
+            txtNumericInput.Clear();
+            lstOut.Items.Clear();
+        }
     }
 }
